@@ -39,3 +39,11 @@ O operador antes precisava separar a NFS, o XML e o RF - documentos próprios da
 ```bash
     python gui.py
 ```
+<br/>
+
+## Como Usar<br/>
+
+1. Abra o programa.
+2. Clique no botão "Selecionar Arquivos" e escolha o arquivo lote de comprovantes.
+3. Clique em "Enviar" e acompanhe o progresso até que finalize e apresente a tela de resultados.
+4. Você pode também visualizar o PDF do arquivo lote ou tirá-lo da lista de arquivos a enviar, basta clicar no botão que tem como ícone a logo da EQS. Esse botão abrirá uma pequena tela que oferece essas duas opções.
