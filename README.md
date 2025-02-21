@@ -9,16 +9,16 @@ O operador antes precisava separar a NFS, o XML e o RF - documentos próprios da
 <br/>
 ## Tecnologias Utilizadas
 
-- Python – Linguagem principal da automação.
-- Selenium – Raspagem de tela e automação de interações no portal da Vale.
-- Webdriver Manager – Gerenciamento automático do ChromeDriver para o Selenium.
-- PyAutoGUI – Simulação de teclas e atalhos do teclado.
-- Tkinter – Interface gráfica para interação do usuário.
-- Pyperclip – Manipulação da área de transferência (copiar e colar).
-- pypdf – Leitura e manipulação de arquivos PDF.
-- Pandas – Manipulação de planilhas e estruturação de dados.
-- xmltodict – Conversão de arquivos XML em dicionários Python.
-- Threading – Execução de processos em paralelo para melhorar o desempenho.
-- Queue – Comunicação segura entre threads.
-- OS & Shutil – Manipulação de arquivos e diretórios.
-- Datetime – Trabalhar com datas e horários no código.
+- Python;
+- Selenium – Raspagem de tela para automação de interações no portal da Vale;
+- Webdriver Manager – Gerenciamento automático do ChromeDriver para o Selenium;
+- PyAutoGUI – Simulação de teclas e atalhos do teclado;
+- Tkinter – Interface gráfica para interação do usuário;
+- Pyperclip – Manipulação da área de transferência (copiar e colar);
+- pypdf – Leitura e manipulação de arquivos PDF;
+- Pandas – Manipulação de planilhas e estruturação de dados;
+- xmltodict – Conversão de arquivos XML em dicionários Python;
+- Threading – Execução de processos em paralelo para melhorar o desempenho;
+- Queue – Comunicação segura entre threads;
+- OS & Shutil – Manipulação de arquivos e diretórios;
+- Datetime – Trabalhar com datas e horários no código;
