@@ -12,7 +12,7 @@ Este projeto é uma automação baseada em Selenium para interação com página
   </thead>
   <tbody>
     <tr>
-      <td>atuadorWeb</td>
+      <td><strong>atuadorWeb</strong></td>
       <td>Módulo responsável pela interação com páginas web utilizando Selenium.</td>
       <td>
         <ul>
@@ -25,7 +25,7 @@ Este projeto é uma automação baseada em Selenium para interação com página
       </td>
     </tr>
     <tr>
-      <td>utils</td>
+      <td><strong>utils</strong></td>
       <td>Módulo contendo funções auxiliares reutilizáveis para otimizar a execução.</td>
       <td>
         <ul>
@@ -35,7 +35,7 @@ Este projeto é uma automação baseada em Selenium para interação com página
       </td>
     </tr>
     <tr>
-      <td>gui</td>
+      <td><strong>gui</strong></td>
       <td>Módulo responsável pela interface gráfica utilizando Tkinter.</td>
       <td>
         <ul>
@@ -46,7 +46,7 @@ Este projeto é uma automação baseada em Selenium para interação com página
       </td>
     </tr>
     <tr>
-      <td>main.py</td>
+      <td><strong>main.py</strong></td>
       <td>Script principal onde a automação é iniciada, integrando todos os módulos.</td>
       <td>
         <ul>
