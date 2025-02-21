@@ -1,6 +1,6 @@
 # Automação Vale
 
-Este projeto automatiza o processo manual de integração de Notas Fiscais de Serviço (NFS) emitidas contra a Vale no portal que ela disponibiliza. A automação conta com uma interface para interação do usuário, e faz integração com o portal por meio da técnica de raspagem de tela.
+Este projeto automatiza o processo manual de integração de Notas Fiscais de Serviço (NFS) emitidas contra a Vale no portal que ela disponibiliza. A automação conta com uma interface para interação do usuário, e faz a comunicação com o portal por meio da técnica de raspagem de tela.
 
 Em detalhes, essa automação tem como base a técnica de raspagem de tela. Por meio da biblioteca Selenium, que possibilita a execução dessa técnica em sites e interfaces web pois se comunica diretamente com o JavaScript da aplicação (linguagem utilizada na programação dessas interfaces), consegue-se fazer o mapeamento e a manipulação de todos os botões, inputs e campos de um formulário web, tornando possível assim o desenvolvimento de um algoritmo que emula as ações humanas para executar a tarefa.
 
