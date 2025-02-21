@@ -22,9 +22,9 @@ O operador antes precisava separar a NFS, o XML e o RF - documentos próprios da
 - Queue – Comunicação segura entre threads;
 - OS & Shutil – Manipulação de arquivos e diretórios;
 - Datetime – Trabalhar com datas e horários no código;
+<br/>
+<br/>
 
-<br/>
-<br/>
 ## Instalação
 1. Clone o repositório ou baixe o arquivo ZIP do programa:
 ```bash
