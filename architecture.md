@@ -13,7 +13,7 @@ Este projeto é uma automação baseada em Selenium para interação com página
   <tbody>
     <tr>
       <td><strong>atuadorWeb</strong></td>
-      <td>Módulo responsável pela interação com páginas web utilizando Selenium, através da classe interagente.</td>
+      <td>Módulo responsável pela interação com páginas web utilizando Selenium, através da classe Interagente.</td>
       <td>
         <ul>
           <li>Controlar o navegador via Selenium.</li>
