@@ -1,9 +1,9 @@
 ## Arquitetura do Projeto
 </br>
-</br>
 Este projeto é uma automação baseada em Selenium para interação com páginas web. Ele possui uma arquitetura modular, separando as responsabilidades em diferentes módulos para facilitar a manutenção e escalabilidade.
 </br>
 </br>
+
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr>
