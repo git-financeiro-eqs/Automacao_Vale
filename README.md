@@ -44,6 +44,7 @@ O operador antes precisava separar a NFS, o XML e o RF - documentos próprios da
 ## Como Usar<br/>
 
 1. Abra o programa.
-2. Clique no botão "Selecionar Arquivos" e escolha o arquivo lote de comprovantes.
-3. Clique em "Enviar" e acompanhe o progresso até que finalize e apresente a tela de resultados.
-4. Você pode também visualizar o PDF do arquivo lote ou tirá-lo da lista de arquivos a enviar, basta clicar no botão que tem como ícone a logo da EQS. Esse botão abrirá uma pequena tela que oferece essas duas opções.
+2. No primeiro input insira o número da NFS inicial e no input seguinte o número da NFS final.
+3. Clique no botão "Pasta RF" e insira o arquivo que contém todas as correspondentes aos processos que serão enviados.
+4. Clique no botão "Planilha Gestores" e insira o arquivo Excel correspondente.
+5. Aperte o botão "Play" posicionado à direita e isso ativará a execução da automação. Aguarde finalizar todos os envios e encerre a aplicação.
