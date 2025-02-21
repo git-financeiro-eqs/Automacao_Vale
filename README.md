@@ -9,7 +9,7 @@ O operador antes precisava separar a NFS, o XML e o RF - documentos próprios da
 <br/>
 ## Tecnologias Utilizadas
 
-- Python;
+- Python e suas bibliotecas nativas;
 - Selenium – Raspagem de tela para automação de interações no portal da Vale;
 - Webdriver Manager – Gerenciamento automático do ChromeDriver para o Selenium;
 - PyAutoGUI – Simulação de teclas e atalhos do teclado;
@@ -20,8 +20,6 @@ O operador antes precisava separar a NFS, o XML e o RF - documentos próprios da
 - xmltodict – Conversão de arquivos XML em dicionários Python;
 - Threading – Execução de processos em paralelo para melhorar o desempenho;
 - Queue – Comunicação segura entre threads;
-- OS & Shutil – Manipulação de arquivos e diretórios;
-- Datetime – Trabalhar com datas e horários no código;
 
 <br/>
 
