@@ -1,6 +1,8 @@
 ## Arquitetura do Projeto
 </br>
+</br>
 Este projeto é uma automação baseada em Selenium para interação com páginas web. Ele possui uma arquitetura modular, separando as responsabilidades em diferentes módulos para facilitar a manutenção e escalabilidade.
+</br>
 </br>
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
@@ -61,12 +63,12 @@ Este projeto é uma automação baseada em Selenium para interação com página
 </br>
 </br>
 
-### Classe Interagente:\
-- abrir_pagina_web(link): Abre uma página no navegador e maximiza a janela.\
-- interagir_pagina_web(xpath, acao, texto='', limitar_espera=False, limitar_retorno=False): Executa ações em elementos da página (cliques, preenchimentos, retornos de elementos).\
-- inserir_arquivo(xpath, xpath_de_espera, arquivo): Insere arquivos nos formulários da página.\
-- migrar_ao_frame(acao, indice=0): Alterna entre frames da página e gerencia alertas.\
-- interagir_javaScript(venctos_convertidos, indice, id): Interage diretamente com elementos via JavaScript.\
-- verificar_instabilidade(verificar): Verifica a estabilidade do carregamento dos elementos da página e força um refresh se necessário.\
-- fechar_driver(): Fecha o navegador ao final da automação.\
+### Classe Interagente:
+- abrir_pagina_web(link): Abre uma página no navegador e maximiza a janela.
+- interagir_pagina_web(xpath, acao, texto='', limitar_espera=False, limitar_retorno=False): Executa ações em elementos da página (cliques, preenchimentos, retornos de elementos).
+- inserir_arquivo(xpath, xpath_de_espera, arquivo): Insere arquivos nos formulários da página.
+- migrar_ao_frame(acao, indice=0): Alterna entre frames da página e gerencia alertas.
+- interagir_javaScript(venctos_convertidos, indice, id): Interage diretamente com elementos via JavaScript.
+- verificar_instabilidade(verificar): Verifica a estabilidade do carregamento dos elementos da página e força um refresh se necessário.
+- fechar_driver(): Fecha o navegador ao final da automação.
   
