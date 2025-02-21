@@ -39,7 +39,6 @@ Este projeto é uma automação baseada em Selenium para interação com página
       <td>Módulo responsável pela interface gráfica utilizando Tkinter.</td>
       <td>
         <ul>
-          <li>Exibir status da execução.</li>
           <li>Disponibilizar botões de controle.</li>
           <li>Permitir seleção de arquivos e configurações pelo usuário.</li>
         </ul>
