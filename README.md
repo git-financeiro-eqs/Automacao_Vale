@@ -22,3 +22,19 @@ O operador antes precisava separar a NFS, o XML e o RF - documentos próprios da
 - Queue – Comunicação segura entre threads;
 - OS & Shutil – Manipulação de arquivos e diretórios;
 - Datetime – Trabalhar com datas e horários no código;
+
+<br/>
+<br/>
+## Instalação
+1. Clone o repositório ou baixe o arquivo ZIP do programa:
+```bash
+    https://github.com/git-financeiro-eqs/Automacao_E2DOC.git
+```
+2. Instale as dependências:
+```bash
+    pip install -r requirements.txt
+```
+3. Execute o programa:
+```bash
+    python gui.py
+```
