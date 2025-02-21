@@ -46,7 +46,7 @@ Este projeto é uma automação baseada em Selenium para interação com página
     </tr>
     <tr>
       <td><strong>main.py</strong></td>
-      <td>Script principal onde a função da automação esta, integrando os módulos utils e atuadorWeb.</td>
+      <td>Script principal onde a função da automação está, integrando os módulos utils e atuadorWeb.</td>
       <td>
         <ul>
           <li>Orquestrar a execução da automação.</li>
