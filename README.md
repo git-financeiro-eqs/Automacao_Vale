@@ -24,8 +24,8 @@ O operador antes precisava separar a NFS, o XML e o RF - documentos próprios da
 - Datetime – Trabalhar com datas e horários no código;
 <br/>
 <br/>
-
 ## Instalação
+
 1. Clone o repositório ou baixe o arquivo ZIP do programa:
 ```bash
     https://github.com/git-financeiro-eqs/Automacao_E2DOC.git
