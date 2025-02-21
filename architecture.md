@@ -66,6 +66,9 @@ Este projeto é uma automação baseada em Selenium para interação com página
 - inserir_arquivo(xpath, xpath_de_espera, arquivo): Insere arquivos nos formulários da página.
 - migrar_ao_frame(acao, indice=0): Alterna entre frames da página e gerencia alertas.
 - interagir_javaScript(venctos_convertidos, indice, id): Interage diretamente com elementos via JavaScript.
-- verificar_instabilidade(verificar): Verifica a estabilidade do carregamento dos elementos da página e força um refresh se necessário.
+- verificar_instabilidade(verificar): Verifica a estabilidade do carregamento de alguns elementos específicos da página e força um refresh se necessário.
 - fechar_driver(): Fecha o navegador ao final da automação.
-  
+</br>
+</br>
+
+Foi necessário uma engenharia lógica para superar a instabilidade do servidor da Vale. A todo momento os elementos da pagina "piscam", saem da tela e voltam, e como essa automação é um script procedural, corria o risco constante de no momento de execução de um comando do script o elemento manipulado da página sair da tela, fazendo com que a sequencia algorítmica se perdesse. A solução encontrada foi ativar uma função paralela, uma thread, que é executada concomitantemente à função principal de preencher o formulário da pagina. Essa função é a verificar_portal(), presente no módulo main.py. Ela se utiliza de uma lista queue chamada controle, e sua lógica de funcionamento é bem simples: ela está em um loop infinito de verificação, constantemente verificando se um elemento referencial está presente na pagina. Se acaso o elemento surge, ela insere um valor na lista controle. A lista controle é monitorada em momentos críticos de execução da função principal e, caso ela não esteja mais vazia, a pagina é reiniciada com o comando de teclado "f5". Em seguida, a lista controle é zerada e a função alimentar_portal_vale(), que é uma função recursiva, retorna ela mesma reiniciando o processo para aquele faturamento específico
