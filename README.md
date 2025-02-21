@@ -43,6 +43,6 @@ O operador antes precisava separar a NFS, o XML e o RF - documentos próprios da
 
 1. Abra o programa.
 2. No primeiro input insira o número da NFS inicial e no input seguinte o número da NFS final.
-3. Clique no botão "Pasta RF" e insira o arquivo que contém todas as correspondentes aos processos que serão enviados.
+3. Clique no botão "Pasta RF" e insira o arquivo que contém todas as RFs correspondentes aos processos que serão enviados.
 4. Clique no botão "Planilha Gestores" e insira o arquivo Excel correspondente.
 5. Aperte o botão "Play" posicionado à direita e isso ativará a execução da automação. Aguarde finalizar todos os envios e encerre a aplicação.
