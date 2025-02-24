@@ -18,7 +18,10 @@ import utils
 
 
 def executar_automacao(nf_inicial, nf_final, pasta_rf, caminho_arq_excel):
-
+    """
+        Função principal. Nela está o fluxo da tarefa que esse programa realiza.
+    """
+    
     controle = queue.Queue()
 
     interagente = atuadorWeb.Interagente()
@@ -262,6 +265,9 @@ def executar_automacao(nf_inicial, nf_final, pasta_rf, caminho_arq_excel):
     
     
     def verificar_portal():
+        """
+        Função que verifica instabilidade no portal da vale.
+        """
         while True:
             sleep(3)
             elemento_esperado = interagente.interagir_pagina_web(xpath='/html/body/main/div/div[4]/div/div/div[1]/div[1]/ul/li[1]/a', acao="Retornar elemento", limitar_retorno=True)
@@ -274,6 +280,11 @@ def executar_automacao(nf_inicial, nf_final, pasta_rf, caminho_arq_excel):
     for i, pasta in enumerate(os.listdir("Processos")):
         
         def alimentar_portal_vale():
+            """
+            Função recursiva para alimentar o portal da Vale. Ela é recursiva pois em caso de instabilidade é necessário reiniciar
+            o processo de integração dos documentos ao portal.
+            """
+            
             while True:
                 interagente.interagir_pagina_web(xpath='/html/body/header/nav[2]/ul/li[5]/a', acao="Clicar", limitar_espera=True)
                 interagente.interagir_pagina_web(xpath='/html/body/header/nav[2]/ul/li[5]/div/a[1]/span', acao="Clicar", limitar_espera=True)
@@ -301,6 +312,10 @@ def executar_automacao(nf_inicial, nf_final, pasta_rf, caminho_arq_excel):
         
         
             def inserir_arquivos():
+                """
+                Mais uma função para controle de instabilidade.
+                """
+                
                 sleep(3)
                 if controle.qsize() >= 1:
                     press("f5")
