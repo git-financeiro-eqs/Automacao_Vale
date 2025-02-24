@@ -19,7 +19,7 @@ import utils
 
 def executar_automacao(nf_inicial, nf_final, pasta_rf, caminho_arq_excel):
     """
-        Função principal. Nela está o fluxo da tarefa que esse programa realiza.
+    Função principal. Nela está o fluxo da tarefa que esse programa realiza.
     """
     
     controle = queue.Queue()
