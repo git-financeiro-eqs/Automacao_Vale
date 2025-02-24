@@ -137,3 +137,4 @@ class Interagente:
 
     def fechar_driver(self):
         self.driver.quit()
+    
