@@ -10,6 +10,9 @@ ASSETS_PATH = OUTPUT_PATH / Path(r"Imagens")
 
 
 def caminho_dos_recursos(path: str) -> Path:
+    """
+    Retorna o caminho completo para os recursos da aplicação, como imagens e ícones.
+    """
     return ASSETS_PATH / Path(path)
 
 
@@ -28,6 +31,10 @@ def validar_input(P):
 
 
 def acionar_automacao():
+    """
+    Função que é chamada quando o botão de automação é acionado. Valida os campos e inicia a automação em um thread separado.
+    Se algum campo estiver vazio ou inválido, exibe uma mensagem de aviso.
+    """
     nf_inicial = entry_1.get()
     nf_final = entry_2.get()
 
