@@ -67,7 +67,7 @@ class Interagente:
 
 
     def inserir_arquivo(self, xpath, xpath_de_espera, arquivo):
-         """
+        """
         Insere um arquivo no campo de input da página e aguarda até que a ação seja concluída.
 
         Parâmetros:
